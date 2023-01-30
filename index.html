@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Eslam_Mohamed_Hamed" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <title>Angora - Responsive One Page Parallax Template</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main styling sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#nav-active"
+    class="position-relative"
+  >
+    <!-- fixed weel -->
+    <span class="setting z-2"><i class="fa-solid fa-gears"></i></span>
+
+    <!-- nav bar -->
+    <nav
+      id="nav-active"
+      class="navbar navbar-expand-lg fixed-top p-sm-4"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo-white.png" alt="logo image"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">Client</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <ul
+              class="social list-unstyled d-flex gap-4 align-items-center ms-4"
+            >
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="py-0 position-relative">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="text min-vh-100 d-flex justify-content-center align-items-center"
+            >
+              <h1 class="col-lg-12 text-center">We build great brands.</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="text min-vh-100 d-flex justify-content-center align-items-center"
+            >
+              <h1 class="col-lg-12 text-center">Focused on strategy.</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="text min-vh-100 d-flex justify-content-center align-items-center"
+            >
+              <h1 class="col-lg-12 text-center">Advanced in digital works.</h1>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <div class="box">
+            <span class="carousel-control-prev-icon" aria-hidden="true"
+              ><i class="fa-solid fa-chevron-left"></i
+            ></span>
+          </div>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <div class="box">
+            <span class="carousel-control-next-icon" aria-hidden="true"
+              ><i class="fa-solid fa-chevron-right"></i
+            ></span>
+          </div>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <a href="#about" class="scroll"></a>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="container">
+        <header class="text-center">
+          <h2>about us</h2>
+          <p class="text-secondary col-lg-7 mx-auto">
+            Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+            Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+            Pellentesque elementum libero enim.
+          </p>
+        </header>
+
+        <div class="row py-5">
+          <div class="col-lg-6">
+            <div class="text-area">
+              <p>
+                Pellentesque vel elit egestas, pretium est ac, convallis orci.
+                Vivamus sem nisl, tristique vel fringilla vitae, efficitur at
+                eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat
+                quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac,
+                viverra felis.
+              </p>
+              <p>
+                Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna
+                posuere volutpat. Mauris ut dui sit amet elit fermentum
+                fermentum. Fusce tincidunt diam at bibendum porta.
+              </p>
+              <p>
+                Aliquam nunc felis, sagittis eu purus non, interdum vehicula
+                urna. Vivamus congue diam sapien, eu pellentesque ipsum
+                ultricies quis.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1 mt-lg-0 mt-4">
+            <div class="prog">
+              <ul class="list-unstyled">
+                <li>
+                  <div class="title">
+                    <div class="inner-title position-relative">
+                      Branding<span class="position-absolute end-0">80%</span>
+                    </div>
+                  </div>
+                  <div class="percent"><div class="inner-percent"></div></div>
+                </li>
+                <li>
+                  <div class="title">
+                    <div class="inner-title position-relative">
+                      Web Design<span class="position-absolute end-0">95%</span>
+                    </div>
+                  </div>
+                  <div class="percent"><div class="inner-percent"></div></div>
+                </li>
+                <li>
+                  <div class="title">
+                    <div class="inner-title position-relative">
+                      Graphic Design<span class="position-absolute end-0"
+                        >85%</span
+                      >
+                    </div>
+                  </div>
+                  <div class="percent"><div class="inner-percent"></div></div>
+                </li>
+                <li>
+                  <div class="title">
+                    <div class="inner-title position-relative">
+                      Development<span class="position-absolute end-0"
+                        >70%</span
+                      >
+                    </div>
+                  </div>
+                  <div class="percent"><div class="inner-percent"></div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team section -->
+    <section id="team">
+      <div class="container">
+        <header class="text-center">
+          <h2>our team</h2>
+          <p class="text-secondary col-lg-7 mx-auto">
+            Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna
+            imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam
+            faucibus.
+          </p>
+        </header>
+
+        <div class="row my-5 gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="member text-center">
+              <div class="image rounded-1 position-relative">
+                <img src="./images/member-1.jpg" class="w-100" alt="team" />
+                <div
+                  class="content w-100 h-100 position-absolute rounded-1 d-flex justify-content-center align-items-center"
+                >
+                  <ul class="list-unstyled d-flex gap-4">
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-dribbble"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="info mt-3">
+                <h5>Michael Broad</h5>
+                <span>Web Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member text-center">
+              <div class="image rounded-1 position-relative">
+                <img src="./images/member-2.jpg" class="w-100" alt="team" />
+                <div
+                  class="content w-100 h-100 position-absolute rounded-1 d-flex justify-content-center align-items-center"
+                >
+                  <ul class="list-unstyled d-flex gap-4">
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-dribbble"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="info mt-3">
+                <h5>Jeannette Crow</h5>
+                <span>CEO Founder</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member text-center">
+              <div class="image rounded-1 position-relative">
+                <img src="./images/member-3.jpg" class="w-100" alt="team" />
+                <div
+                  class="content w-100 h-100 position-absolute rounded-1 d-flex justify-content-center align-items-center"
+                >
+                  <ul class="list-unstyled d-flex gap-4">
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-dribbble"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="info mt-3">
+                <h5>Martin Lawrence</h5>
+                <span>App Developer</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member text-center">
+              <div class="image rounded-1 position-relative">
+                <img src="./images/member-4.jpg" class="w-100" alt="team" />
+                <div
+                  class="content w-100 h-100 position-absolute rounded-1 d-flex justify-content-center align-items-center"
+                >
+                  <ul class="list-unstyled d-flex gap-4">
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#home"><i class="fa-brands fa-dribbble"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="info mt-3">
+                <h5>Isabella Dowson</h5>
+                <span>Creative Director</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="ideas d-flex flex-column flex-md-row gap-3 justify-content-around pt-5"
+        >
+          <h3>Do you have any ideas?</h3>
+          <button type="button" class="btn btn-danger">
+            <a href="#contact" class="">Contact Us</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+      <div class="container">
+        <header class="text-center">
+          <h2>services</h2>
+          <p class="text-secondary col-lg-7 mx-auto">
+            Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+            Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+            Pellentesque elementum libero enim.
+          </p>
+        </header>
+
+        <div class="row my-5 gy-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <div class="description">
+                <h3>Responsive Layout</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-pen-ruler"></i></div>
+              <div class="description">
+                <h3>Modern Design</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-regular fa-flag"></i></div>
+              <div class="description">
+                <h3>Font Awesome Icons</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-address-card"></i></div>
+              <div class="description">
+                <h3>Ajax Portfolio</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-gear"></i></div>
+              <div class="description">
+                <h3>Color Options</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-headset"></i></div>
+              <div class="description">
+                <h3>Audio Support</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-file-signature"></i></div>
+              <div class="description">
+                <h3>Well Documented</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-video-slash"></i></div>
+              <div class="description">
+                <h3>Background Videos</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item d-flex gap-4">
+              <div class="icon"><i class="fa-solid fa-sliders"></i></div>
+              <div class="description">
+                <h3>Intro Slider</h3>
+                <p>
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client section -->
+    <section id="client">
+      <div class="container">
+        <header class="text-center">
+          <h2>client reviews</h2>
+          <p class="text-secondary col-lg-7 mx-auto">
+            Donec purus est, tincidunt eu sodales quis, vehicula quis enim.
+            Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin
+            risus, id ultricies arcu neque eget velit.
+          </p>
+        </header>
+
+        <div id="carouselExampleCaptions" class="carousel slide my-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="person text-center">
+                <img
+                  src="./images/client-1.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Martin Jack</h3>
+                  <span>From Hooli</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Aenean sit amet est orci. Aenean at nisi eget nulla lobortis
+                  commodo. Nam eget lorem in ex aliquam dapibus.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-2.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>David Dowsy</h3>
+                  <span>From Globex</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Suspendisse non velit lacus. Mauris efficitur lorem a justo
+                  semper, ut suscipit ligula malesuada. Donec dui nulla.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-3.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Doglas Kosta</h3>
+                  <span>From Soylent</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Vestibulum lectus massa, volutpat ut tristique nec, volutpat
+                  in turpis. In vehicula tempus odio. Nullam enim ligula.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-4.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Anthony Lee</h3>
+                  <span>From Initech</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                  sapien, sit amet volutpat sem fringilla ut. Proin viverra
+                  scelerisque mollis.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-5.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Jane Doris</h3>
+                  <span>From Acme</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Fusce euismod eget nulla a tempus. Pellentesque in varius
+                  metus. Fusce iaculis cursus ante, vel vestibulum dui sagittis
+                  vitae.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-6.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Jonathon Doe</h3>
+                  <span>From Umbrella</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Cras et est eu tellus fringilla congue. Nunc efficitur libero
+                  ut nunc volutpat porttitor. Aliquam in justo at neque.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-7.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Shane Catson</h3>
+                  <span>From Massive</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Vivamus pellentesque dignissim neque, quis viverra diam
+                  venenatis sit amet. Donec dignissim turpis quis libero posuere
+                  auctor.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-8.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Hugh Tace</h3>
+                  <span>From Capital</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Aenean varius accumsan eros, id molestie leo vestibulum a. Ut
+                  semper dictum feugiat. Integer tincidunt interdum eros ut
+                  accumsan.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="person text-center">
+                <img
+                  src="./images/client-9.png"
+                  class="d-block rounded-circle img-thumbnail mx-auto"
+                  alt="client photo"
+                />
+                <div class="person-info mt-4">
+                  <h3>Chris Wort</h3>
+                  <span>From Sylhost</span>
+                </div>
+                <blockquote class="col-lg-6 mx-auto my-4">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Morbi viverra ultrices magna vel egestas. Suspendisse rutrum,
+                  lacus nec sodales gravida, augue ante sollicitudin sem.
+                  <i class="fa-solid fa-quote-right"></i>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"
+              ><i class="fa-solid fa-angles-left text-danger fa-2x"></i
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"
+              ><i class="fa-solid fa-angles-right text-danger fa-2x"></i
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+      <div class="container">
+        <header class="text-center">
+          <h2>get in touch</h2>
+          <p class="text-secondary col-lg-7 mx-auto">
+            Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo
+            nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec
+            velit. Morbi volutpat suscipit.
+          </p>
+        </header>
+
+        <div class="row row-cols-md-2 mt-5">
+          <div class="col">
+            <div class="contact-info">
+              <h3>Get answers and advices from professional consultants.</h3>
+              <ul class="list-unstyled">
+                <li class="d-flex">
+                  <i class="fa-regular fa-map"></i>
+                  <div class="sub-info">
+                    <h4>Address</h4>
+                    <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <div class="sub-info">
+                    <h4>Phone</h4>
+                    <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <i class="fa-regular fa-envelope"></i>
+                  <div class="sub-info">
+                    <h4>Say Hello</h4>
+                    <a href="mailto:email@sitename.com">email@sitename.com</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <form
+            action="https://formspree.io/f/xzbqdejo"
+            method="POST"
+            class="contact-area"
+          >
+            <div class="col mt-2">
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  name="your-name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col my-4">
+              <div>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  name="your-email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col my-4">
+              <div>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Phone"
+                  name="your-phone"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="3"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="col mt-4">
+              <div class="d-flex align-items-center butn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <a
+        href="#home"
+        class="up d-flex justify-content-center align-items-center text-decoration-none"
+        ><i class="fa-solid fa-chevron-up"></i
+      ></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 pb-5">
+            <div class="foot-logo text-center">
+              <a href="#home"><img src="./images/icon.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="package">
+              <h5>Contact Info</h5>
+              <p>
+                <span class="d-block">1650 Lombard Street,</span
+                ><span>San Francisco, CA 94123</span>
+              </p>
+              <p>
+                <span class="d-block mb-2">+1 (415) 876-3250</span
+                ><a href="mailto:email@sitename.com">email@sitename.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="package">
+              <h5>Useful Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#home">Support</a></li>
+                <li><a href="#home">Privacy Policy</a></li>
+                <li><a href="#home">Terms & Conditions</a></li>
+                <li><a href="#home">Affiliate Program</a></li>
+                <li><a href="#home">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="package">
+              <h5>Recent Posts</h5>
+              <ul class="list-unstyled">
+                <li><a href="#home">Sunset in Venice</a></li>
+                <li><a href="#home">Aerial View of Village</a></li>
+                <li><a href="#home">Lighted Concrete City</a></li>
+                <li><a href="#home">The Little Ghost</a></li>
+                <li><a href="#home">Royal Oats ft. Waldo</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="package">
+              <h5>Popular Tags</h5>
+              <div class="row">
+                <div class="col-lg-10 col-md-12">
+                  <div class="tag">
+                    <a href="#home">HTML5</a>
+                    <a href="#home">CSS3</a>
+                    <a href="#home">jQuery</a>
+                  </div>
+                </div>
+                <div class="col-lg-10 col-md-12">
+                  <div class="tag">
+                    <a href="#home">UX / UI</a>
+                    <a href="#home">Web</a>
+                    <a href="#home">Graphic</a>
+                  </div>
+                </div>
+                <div class="col-lg-10 col-md-12">
+                  <div class="tag">
+                    <a href="#home">Design</a> <a href="#home">Development</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="c-rights py-3">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6 text-center">
+            <div class="social-links ms-auto">
+              <ul class="list-unstyled d-flex justify-content-sm-center justify-content-md-start gap-4">
+                <li>
+                  <a href="#home"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#home"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#home"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#home"><i class="fa-brands fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#home"><i class="fa-brands fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-3 col-md-6">
+            <div class="text  justify-content-sm-center d-sm-flex">
+              <p>Copyright © 2020 <span>Angora</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
