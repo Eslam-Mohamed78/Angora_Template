@@ -199,9 +199,7 @@ nav .social li a:hover {
 #home .carousel-control-next-icon {
   background-image: none;
 }
-#home .carousel-control-prev .box::before {
 
-}
 #home .carousel-control-prev .box::before,
 #home .carousel-control-next .box::before {
   content: "";
@@ -573,4 +571,38 @@ footer .package .tag a:hover {
 .c-rights .social-links li:hover a,
 .c-rights p span:hover {
   color: var(--rose-color) !important;
+}
+
+/* ======================= work section ====================== */
+#work .nav-pills .nav-link {
+  color: #000;
+  transition: all 0.4s ease;
+}
+#work .nav-pills .nav-link:hover,
+#work .nav-pills .nav-link.active {
+  color: #fff;
+  background-color: var(--rose-color);
+  border-radius: 50px;
+}
+#work .col .image {
+  overflow: hidden;
+}
+#work .col .image .text {
+  background: transparent;
+  transition: transform 0.4s ease-out;
+}
+#work .col .image img {
+  transition: transform 0.5s ease;
+}
+#work .col .image:hover .text {
+  transform: translateY(-100%);
+}
+#work .col .image:hover img {
+  transform: scale(1.3);
+}
+#work .col .image .layer {
+  transition: opacity 0.5s ease;
+}
+#work .col .image:hover .layer {
+opacity: 1 !important;
 }
